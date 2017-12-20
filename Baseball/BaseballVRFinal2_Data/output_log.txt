@@ -1,55 +1,36 @@
 Initialize engine version: 2017.1.0p4 (892c0f8d8f8a)
 GfxDevice: creating device client; threaded=1
-GfxDevice: creating device client; threaded=1
 Direct3D:
     Version:  Direct3D 11.0 [level 11.0]
     Renderer: NVIDIA GeForce GTX TITAN Black (ID=0x100c)
     Vendor:   NVIDIA
-    Renderer: NVIDIA GeForce GTX TITAN Black (ID=0x100c)
     VRAM:     6106 MB
-    VRAM:     6106 MB
-8569
     Driver:   22.21.13.8569
 Begin MonoManager ReloadAssembly
-Begin MonoManager ReloadAssembly
 Platform assembly: U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.dll (this message is harmless)
-Platform assembly: U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.dll into Unity Child Domain
 Loading U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Loading U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Platform assembly: U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Loading U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Platform assembly: U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Loading U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
 Platform assembly: U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
 Loading U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
-Loading U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
-Platform assembly: U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Platform assembly: U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Loading U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-Platform assembly: U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\System.dll (this message is harmless)
 Platform assembly: U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\System.dll (this message is harmless)
 Platform assembly: U:\CS 498 VR\BaseballVRFinal\Baseball\BaseballVRFinal2_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.615 seconds
-<RI> Initializing input.
-<RI> Input initialized.
+- Completed reload, in  0.361 seconds
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 28.314938 ms
+UnloadTime: 9.392111 ms
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 7600 -> priority: 1 
-  Thread -> id: 6f10 -> priority: 1 
-  Thread -> id: 67fc -> priority: 1 
-  Thread -> id: 3fdc -> priority: 1 
+  Thread -> id: 71e8 -> priority: 1 
+  Thread -> id: 64d8 -> priority: 1 
+  Thread -> id: 6ce8 -> priority: 1 
+  Thread -> id: 7590 -> priority: 1 
 pitched
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
@@ -58,7 +39,7 @@ hit bat
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-8.090768
+10.40279
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -66,7 +47,7 @@ hit bat
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-8.090768
+10.39223
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -74,7 +55,7 @@ hit bat
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-8.105607
+10.38679
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -82,43 +63,7 @@ hit bat
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-12.93079
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-pitched
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-hit bat
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-9.221353
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-hit bat
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-9.221354
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-hit bat
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-9.240019
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-hit bat
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-9.216846
+10.38679
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -146,7 +91,7 @@ hit bat
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-12.677
+9.352085
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -154,7 +99,7 @@ hit bat
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-12.62917
+9.332897
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -162,7 +107,95 @@ hit bat
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-12.6352
+9.342702
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Home Run Registered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+home runs collision detected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+wait to kill
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+pitched
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+killing
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11.90868
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11.89481
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11.89211
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Home Run Registered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+home runs collision detected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+wait to kill
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+pitched
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+killing
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13.48469
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13.44227
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13.44227
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -178,7 +211,7 @@ hit bat
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-10.81872
+13.9893
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -186,7 +219,7 @@ hit bat
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-10.85739
+13.96425
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -194,15 +227,15 @@ hit bat
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-10.81872
+14.02808
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-hit bat
+foul ball collision detected
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-10.78142
+pitched
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -218,7 +251,7 @@ hit bat
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-15.38124
+11.79575
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -226,7 +259,7 @@ hit bat
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-15.45476
+11.83959
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -234,7 +267,7 @@ hit bat
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-15.41467
+11.79447
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -242,7 +275,7 @@ hit bat
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-15.41467
+11.7897
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -251,6 +284,190 @@ foul ball collision detected
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 pitched
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15.02063
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15.0148
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+15.0148
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+pitched
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13.23927
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13.26501
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13.29246
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13.26501
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+pitched
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11.65647
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11.65647
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13.95313
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+13.94457
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+pitched
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12.37449
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12.38153
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+12.37449
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Home Run Registered
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+home runs collision detected
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+wait to kill
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+pitched
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+killing
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+start wasting time
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11.46699
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11.46003
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11.46003
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+hit bat
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11.4724
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+end wasting time
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
