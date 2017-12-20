@@ -13,17 +13,21 @@ public class ScoreUpdater : MonoBehaviour {
 	public int currHighScoreVal;
 	public Text currHighScoreDisplayer;
 
-	public float TimeLeft = 15f;//please
+	public float TimeLeft = -1f;//please
 	private float initialTime;
+
+    public bool righty;
 
 	public Text timer;
 
 	public bool game_over = false;
-	public bool restart = false;
+    public bool restart = true;
 
 	private bool busy = false;
 
 	private bool alreadyDone = false;
+
+    public bool handSelect = false;
 
 	private Color yellowColor = new Color (255f / 255f, 242f / 255f, 62f / 255f, 1.0f);
 
@@ -31,16 +35,18 @@ public class ScoreUpdater : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		currScoreVal = 0;
-		initialTime = TimeLeft;
+		initialTime = 60F;
 		DisplayText.color = yellowColor;
 		currScoreDisplayer.color = yellowColor;
 		currHighScoreDisplayer.color = yellowColor;
 		timer.color = yellowColor;
-	}
+        restart = true;
+        righty = true;
+        TimeLeft = -1f;
+    }
 	
 	// Update is called once per frame
 	void Update () {
-
 		if (!restart) {
 			TimeLeft -= Time.deltaTime;
 			if (TimeLeft > 0) {
@@ -72,7 +78,36 @@ public class ScoreUpdater : MonoBehaviour {
 				}
 				*/
 			}
-		} else {
+		}
+        else if (!handSelect)
+        {
+            //Debug.Log("handselect");
+            alreadyDone = false;
+            timer.text = "";
+            TimeLeft -= Time.deltaTime;
+            if (((int)TimeLeft) % 2 == 0)
+            {
+                DisplayText.text = "Press A for Righty";
+            }
+            else
+            {
+                DisplayText.text = "Press X for Lefty";
+            }
+            if (Input.GetKeyDown("r") || OVRInput.GetDown(OVRInput.RawButton.A))
+            {
+                righty = true;
+                handSelect = true;
+                TimeLeft = 60f;
+            }
+            if (Input.GetKeyDown("l") || OVRInput.GetDown(OVRInput.RawButton.X))
+            {
+                righty = false;
+                handSelect = true;
+                TimeLeft = 60f;
+            }
+
+        }
+        else {
 			alreadyDone = false;
 			DisplayText.text = "Play Ball!";
 			DisplayText.color = yellowColor;
@@ -112,7 +147,7 @@ public class ScoreUpdater : MonoBehaviour {
 		}
 
 		game_over = true;
-
+        handSelect = false;
 		busy = false;
 	}
 		
