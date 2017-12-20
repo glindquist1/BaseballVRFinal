@@ -25,15 +25,17 @@ public class ScoreUpdater : MonoBehaviour {
 
 	private bool alreadyDone = false;
 
+	private Color yellowColor = new Color (255f / 255f, 242f / 255f, 62f / 255f, 1.0f);
+
 	private float timeStop;
 	// Use this for initialization
 	void Start () {
 		currScoreVal = 0;
 		initialTime = TimeLeft;
-		DisplayText.color = Color.black;
-		currScoreDisplayer.color = Color.black;
-		currHighScoreDisplayer.color = Color.black;
-		timer.color = Color.black;
+		DisplayText.color = yellowColor;
+		currScoreDisplayer.color = yellowColor;
+		currHighScoreDisplayer.color = yellowColor;
+		timer.color = yellowColor;
 	}
 	
 	// Update is called once per frame
@@ -73,12 +75,12 @@ public class ScoreUpdater : MonoBehaviour {
 		} else {
 			alreadyDone = false;
 			DisplayText.text = "Play Ball!";
-			DisplayText.color = Color.black;
+			DisplayText.color = yellowColor;
 			currScoreVal = 0;
 			currScoreDisplayer.text = "" + currScoreVal;
-			currScoreDisplayer.color = Color.black;
+			currScoreDisplayer.color = yellowColor;
 			TimeLeft = initialTime;
-			DisplayText.color = Color.black;
+			DisplayText.color = yellowColor;
 			restart = false;
 		}
 	}
